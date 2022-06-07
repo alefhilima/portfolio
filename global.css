@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Fira Sans", sans-serif;
+    color: #FFF;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+span {
+    color: #5FE36A;
+}
+
+h1 {
+    font-size: 82px;
+}
+
+h2 {
+   font-size: 54px; 
+}
+
+h3 {
+    font-size: 32px;
+}
+
+section {
+    padding: 70px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bg-light {
+    background-color: #1B1B1B;
+}
+
+.bg-dark {
+    background-color: #141414;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,157 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    gap: 20px; 
+}
+
+.menu li a {
+    font-size: 18px;
+    padding: 8px 16px;
+    border: 1px solid #1B1B1B;
+}
+
+.menu li a:hover {
+    border: 1px solid #5FE36A;
+    border-radius: 4px;
+}
+
+
+/* === Home ===*/
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100vh - 60px);
+}
+
+.home-left h1,
+.home-left h3 {
+    margin-bottom: 16px;
+}
+
+.home-left p {
+    margin-bottom: 48px;
+}
+
+.home-left a {
+    font-weight: 600;
+    background-color: #5FE36A;
+    color: #3D3D3D;
+    padding: 16px 32px;
+    border-radius: 4px;
+}
+
+.home-left a:hover {
+    background-color: #51C95B;
+}
+
+
+/* === Sobre === */
+.sobre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobre-left {
+    max-width: 500px;
+}
+
+.sobre-right img {
+    width: 307px;
+    height: 410px;
+}
+
+
+/* === Projetos === */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card {
+    width: 350px;
+    height: 400px;
+    background-color: #292929;
+    padding: 30px 15px;
+    border-radius: 4px;
+}
+
+.card-info img {
+    width:320px;
+    height: 200px;
+}
+
+.card-info p {
+    width: 320px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary {
+    background-color: #5FE36A;
+    color: #1B1B1B;
+    font-weight: 600;
+    padding: 12px 46px;
+    border-radius: 4px;
+}
+
+.btn-primary:hover {
+    background-color: #51C95B;
+}
+
+.btn-secondary {
+    color: #FFF;
+    font-weight: 600;
+    padding: 12px 46px;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+}
+
+.btn-secondary:hover {
+    background-color: #FFF;
+    color: #1B1B1B;
+}
+
+
+/* === Tecnologia === */
+.tecnologia-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.tecnologia-card img  {
+    width: 100px;
+}
+
+.tecnologia-card p {
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+/* === Footer === */
+.footer {
+    height: 80px;
+}
+
+.footer p {
+    text-align: center;
+    padding: 30px;
+}
