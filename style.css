@@ -70,7 +70,6 @@
 /* === Projetos === */
 .cards {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
@@ -155,3 +154,44 @@
     text-align: center;
     padding: 30px;
 }
+
+
+/* === Responsivo === */
+@media (max-width: 800px) {
+    .container {
+        max-width: 800px;
+    }
+
+    .tecnologia-cards {
+        gap: 40px;
+    }
+
+    .cards {
+        gap: 20px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        max-width: 400px;
+    }
+
+    .home-left {
+        text-align: center;
+    }
+
+    .home-right {
+        display: none;
+    }
+
+    .sobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre-left {
+        margin-bottom: 40px;
+    }
+}
+
