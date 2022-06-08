@@ -172,9 +172,9 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .container {
-        width: 550px;
+        width: 450px;
     }
 
     section {
@@ -188,6 +188,7 @@
     header nav {
         display: none;
     }
+
 
     .home-left {
         display: flex;
