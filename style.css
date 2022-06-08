@@ -177,6 +177,14 @@
         max-width: 400px;
     }
 
+    .header a {
+        margin: 0 auto;
+    }
+
+    header nav {
+        display: none;
+    }
+
     .home-left {
         text-align: center;
     }
@@ -192,6 +200,10 @@
 
     .sobre-left {
         margin-bottom: 40px;
+    }
+
+    .sobre-right {
+        display: none;
     }
 }
 
