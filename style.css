@@ -177,6 +177,10 @@
         width: 550px;
     }
 
+    section {
+        padding: 40px 0;
+    }
+
     .header a {
         margin: 0 auto;
     }
