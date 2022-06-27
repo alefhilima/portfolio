@@ -20,6 +20,25 @@
     border-radius: 4px;
 }
 
+@media (max-width: 500px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu {
+        margin-top: 20px;
+    }
+
+    .home-left h3 {
+        font-size: 26px;
+    }
+
+    .home-left h1 {
+        font-size: 62px;
+    }
+}
+
 
 /* === Home ===*/
 .home {
@@ -50,6 +69,17 @@
     background-color: #51C95B;
 }
 
+@media (max-width: 800px) {
+    .home-left {
+        margin: 0 auto;
+        text-align: center;
+    } 
+
+    .home-right {
+        display: none;
+    }
+}
+
 
 /* === Sobre === */
 .sobre {
@@ -64,6 +94,35 @@
 .sobre-right img {
     width: 307px;
     height: 410px;
+}
+
+@media (max-width: 800px) {
+    .sobre {
+        flex-direction: column;
+    }
+
+    .sobre-left {
+        max-width: 600px;
+    }
+
+    .sobre-left,
+    .sobre-right {
+        margin: 0 auto;
+    }
+
+    .sobre-right {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .sobre-left p {
+        max-width: 400px;
+    }
+
+    .sobre-right {
+        display: none;
+    }
 }
 
 
@@ -125,25 +184,15 @@
     color: #1B1B1B;
 }
 
+@media (max-width:1200px) {
+    .cards {
+        gap: 20px;
+    }
 
-/* === Tecnologia === */
-.tecnologia-cards {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 80px;
+    .card {
+        margin: 0 auto;
+    }
 }
-
-.tecnologia-card img  {
-    width: 100px;
-}
-
-.tecnologia-card p {
-    text-align: center;
-    margin-top: 16px;
-}
-
 
 /* === Footer === */
 .footer {
@@ -156,62 +205,4 @@
 }
 
 
-/* === Responsivo === */
-@media (max-width: 800px) {
-    .container {
-        max-width: 800px;
-    }
-
-    .tecnologia-cards {
-        gap: 40px;
-    }
-
-    .cards {
-        gap: 20px;
-        justify-content: center;
-    }
-}
-
-@media (max-width: 500px) {
-    .container {
-        width: 450px;
-    }
-
-    section {
-        padding: 40px 0;
-    }
-
-    .header a {
-        margin: 0 auto;
-    }
-
-    header nav {
-        display: none;
-    }
-
-
-    .home-left {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin: 0 auto;
-    }
-
-    .home-right {
-        display: none;
-    }
-
-    .sobre {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .sobre-left {
-        margin-bottom: 40px;
-    }
-
-    .sobre-right {
-        display: none;
-    }
-}
 
